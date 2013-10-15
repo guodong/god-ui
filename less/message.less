@@ -1,0 +1,33 @@
+.-message{
+	position: relative;
+	min-height: 18px;
+	margin: 1em 0em;
+	height: auto;
+	background-color: #EFEFEF;
+	padding: 1em;
+	line-height: 1.33;
+	color: rgba(0, 0, 0, 0.6);
+	-webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+	-moz-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+	-o-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+	-ms-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+	transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0.325em 0.325em 0.325em 0.325em;
+	-moz-border-radius: 0.325em 0.325em 0.325em 0.325em;
+	border-radius: 0.325em 0.325em 0.325em 0.325em;
+	&.-green{
+		background-color: @green;
+		color: white;
+	}
+	&.-red{
+		background-color: @red;
+		color: white;
+	}
+	&.-large{
+		font-size: 1.2em;
+	}
+}

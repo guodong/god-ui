@@ -1,0 +1,112 @@
+/**btn**/
+@blue: #3498db;
+@dark_blue: #2980b9;
+@bright_blue: #5dade2;
+
+@green: #2ecc71;
+@dark_green: #27ae60;
+@bright_green: #58d68d;
+
+@red: #e74c3c;
+@dark_red: #c0392b;
+@bright_red: #ec7063;
+
+@purple: #9b59b6;
+@dark_purple: #8e44ad;
+@bright_purple: #BA87CF;
+
+@gray: #95a5a6;
+@dark_gray: #7f8c8d;
+@bright_gray: #bdc3c7;
+
+.-btn {
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 1em;
+	outline: none;
+	border: none;
+	background-color: @blue;
+	color: #fff;
+	padding: 0.8em 1.5em;
+	font-size: 1rem;
+	text-transform: uppercase;
+	line-height: 1;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+	-webkit-box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0em -0.185rem 0em rgba(0, 0, 0, 0.1) inset;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(200, 200, 200, 0);
+	-webkit-transition: opacity 0.25s ease, background-color 0.25s ease,
+		color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+	-moz-transition: opacity 0.25s ease, background-color 0.25s ease, color
+		0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+	-o-transition: opacity 0.25s ease, background-color 0.25s ease, color
+		0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+	-ms-transition: opacity 0.25s ease, background-color 0.25s ease, color
+		0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+	transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s
+		ease, background 0.25s ease, box-shadow 0.25s ease;
+	cursor: pointer;
+	&:hover{
+		color: #fff;
+		background: @bright_blue;
+	}
+	&:active{
+		opacity: 1 !important;
+		background-color: @dark_blue;
+		color: #FFFFFF;
+		-webkit-box-shadow: 0px 1px 0.2em 0px rgba(0, 0, 0, 0.3) inset;
+		-moz-box-shadow: 0px 1px 0.2em 0px rgba(0, 0, 0, 0.3) inset;
+		box-shadow: 0px 1px 0.2em 0px rgba(0, 0, 0, 0.3) inset;
+	}
+	&.-green{
+		background: @green;
+		&:hover{
+			background: @bright_green;
+		}
+		&:active{
+			background: @dark_green;
+		}
+	}
+	&.-red{
+		background: @red;
+		&:hover{
+			background: @bright_red;
+		}
+		&:active{
+			background: @dark_red;
+		}		
+	}	
+	&.-purple{
+		background: @purple;
+		&:hover{
+			background: @bright_purple;
+		}
+		&:active{
+			background: @dark_purple;
+		}		
+	}	
+	&.-gray{
+		background: @gray;
+		&:hover{
+			background: @bright_gray;
+		}
+		&:active{
+			background: @dark_gray;
+		}		
+	}	
+}
