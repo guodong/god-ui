@@ -1,0 +1,165 @@
+.-image {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+img.-image {
+  display: block;
+  background: none;
+}
+.-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*******************************
+            States
+*******************************/
+
+
+.-disabled.-image {
+  cursor: default;
+  opacity: 0.3;
+}
+
+
+/*******************************
+          Variations
+*******************************/
+
+/*--------------
+     Rounded
+---------------*/
+
+.-rounded.-images .-image,
+.-rounded.-images img,
+.-rounded.-image img,
+.-rounded.-image {
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+}
+
+/*--------------
+     Circular
+---------------*/
+
+.-circular.-images .-image,
+.-circular.-images img,
+.-circular.-image img,
+.-circular.-image {
+  -webkit-border-radius: 500rem;
+  -moz-border-radius: 500rem;
+  border-radius: 500rem;
+}
+
+/*--------------
+     Fluid
+---------------*/
+
+.-fluid.-images,
+.-fluid.-image,
+.-fluid.-images img,
+.-fluid.-image img {
+  display: block;
+  width: 100%;
+}
+
+
+/*--------------
+     Avatar
+---------------*/
+
+.-avatar.-images .-image,
+.-avatar.-images img,
+.-avatar.-image img,
+.-avatar.-image {
+  margin-right: 0.5em;
+
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+
+  -webkit-border-radius: 500rem;
+  -moz-border-radius: 500rem;
+  border-radius: 500rem;
+}
+
+
+
+/*-------------------
+       Floated
+--------------------*/
+
+.-floated.-image,
+.-floated.-images {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.-right.floated.-images,
+.-right.floated.-image {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+
+/*--------------
+     Sizes
+---------------*/
+
+.-tiny.-images .-image,
+.-tiny.-images img,
+.-tiny.-image {
+  width: 20px;
+  font-size: 0.7rem;
+}
+.-mini.-images .-image,
+.-mini.-images img,
+.-mini.-image {
+  width: 35px;
+  font-size: 0.8rem;
+}
+.-small.-images .-image,
+.-small.-images img,
+.-small.-image {
+  width: 80px;
+  font-size: 0.9rem;
+}
+.-medium.-images .-image,
+.-medium.-images img,
+.-medium.-image {
+  width: 300px;
+  font-size: 1rem;
+}
+.-large.-images .-image,
+.-large.-images img,
+.-large.-image {
+  width: 450px;
+  font-size: 1.1rem;
+}
+.-huge.-images .-image,
+.-huge.-images img,
+.-huge.-image {
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+/*******************************
+              Groups
+*******************************/
+
+.-images {
+  font-size: 0em;
+  margin: 0em -0.25rem 0rem;
+}
+
+.-images .-image,
+.-images img {
+  display: inline-block;
+  margin: 0em 0.25em 0.5em;
+}
