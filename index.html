@@ -17,10 +17,63 @@
 				Button</a> <a class="-btn -red">Red Button</a> <a class="-btn -purple">purple
 				Button</a> <a class="-btn -gray">gray Button</a>
 		</div>
+		<div class="row">
+			<a class="-btn -small">Normal Button</a> <a class="-btn -green -small">Green
+				Button</a> <a class="-btn -red -small">Red Button</a> <a class="-btn -purple -small">purple
+				Button</a> <a class="-btn -gray -small">Gray Button</a>
+		</div>
 		<div class="h1">Input</div>
 		<input type="text" class="-text" placeholder="Normal input">
 		<div class="row">
 			<input type="text" class="-text error" placeholder="Error input">
+		</div>
+		<div class="h1">Check box</div>
+		<div class="row">
+			<label class="-checkbox">
+	          <input type="checkbox"> Hello
+	        </label>
+			<label class="-checkbox">
+	          <input type="checkbox"> World!
+	        </label>
+		</div>
+		<div class="h1">Select</div>
+		<div class="row">
+			<select class="-select">
+				<option>God</option>
+				<option>Bless</option>
+				<option>You</option>
+			</select>
+		</div>
+		<div class="h1">Radio</div>
+		<div class="row">
+			<div class="-radio">
+				<label>
+					<input type="radio" name="radio" checked="checked">
+					God bless you!
+				</label>
+			</div>
+			<div class="-radio">
+				<label>
+					<input type="radio" name="radio">
+					God not bless you!
+				</label>
+			</div>
+		</div>
+		<div class="h1">Form</div>
+		<div class="row">
+			<div class="-form -panel">
+				<div class="-field">
+					<label>Username</label>
+					<input type="text" class="-text">
+				</div>
+				<div class="-field">
+					<label>Password</label>
+					<input type="text" class="-text">
+				</div>
+				<div class="-field">
+					<a class="-btn -small">Login</a>
+				</div>
+			</div>
 		</div>
 		<div class="h1">Table</div>
 		<table class="-table">
@@ -71,51 +124,67 @@
 			<div class="-message -green -large">God bless you!</div>
 			<div class="-message -red -large">God bless you!</div>
 		</div>
-		<div class="h1">Grid system</div>
+		<div class="h1">Tight grid</div>
 		<div class="row">
-			<div class="-grid">
+			<div class="-grid">				
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
 				<div class="-col6"><div class="-panel">6 column</div></div>
 				<div class="-col6"><div class="-panel">6 column</div></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-grid">
+
 				<div class="-col5"><div class="-panel">5 column</div></div>
 				<div class="-col7"><div class="-panel">7 column</div></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-grid">
+
 				<div class="-col4"><div class="-panel">4 column</div></div>
 				<div class="-col4"><div class="-panel">4 column</div></div>
 				<div class="-col4"><div class="-panel">4 column</div></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-grid">
+
 				<div class="-col3"><div class="-panel">3 column</div></div>
 				<div class="-col3"><div class="-panel">3 column</div></div>
 				<div class="-col3"><div class="-panel">3 column</div></div>
 				<div class="-col3"><div class="-panel">3 column</div></div>
 			</div>
 		</div>
-		<div class="h1">Separated grid</div>
+		<div class="h1">Loose grid</div>
 		<div class="row">
-			<div class="-sgrid">
-				<div class="col-md-6"><div class="-panel">6 column</div></div>
-				<div class="col-md-6"><div class="-panel">6 column</div></div>
+			<div class="-grid -loose">
+				<div class="-col6"><div class="-panel">6 column</div></div>
+				<div class="-col6"><div class="-panel">6 column</div></div>
 				
-				<div class="col-md-5"><div class="-panel">5 column</div></div>
-				<div class="col-md-7"><div class="-panel">7 column</div></div>
+				<div class="-col5"><div class="-panel">5 column</div></div>
+				<div class="-col7"><div class="-panel">7 column</div></div>
 				
-				<div class="col-md-4"><div class="-panel">4 column</div></div>
-				<div class="col-md-4"><div class="-panel">4 column</div></div>
-				<div class="col-md-4"><div class="-panel">4 column</div></div>
+				<div class="-col4"><div class="-panel">4 column</div></div>
+				<div class="-col4"><div class="-panel">4 column</div></div>
+				<div class="-col4"><div class="-panel">4 column</div></div>
 				
-				<div class="col-md-3"><div class="-panel">3 column</div></div>
-				<div class="col-md-3"><div class="-panel">3 column</div></div>
-				<div class="col-md-3"><div class="-panel">3 column</div></div>
-				<div class="col-md-3"><div class="-panel">3 column</div></div>
+				<div class="-col3"><div class="-panel">3 column</div></div>
+				<div class="-col3"><div class="-panel">3 column</div></div>
+				<div class="-col3"><div class="-panel">3 column</div></div>
+				<div class="-col3"><div class="-panel">3 column</div></div>
+				
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
+				<div class="-col1"><div class="-panel">1 column</div></div>
 			</div>
 		</div>
 		<div class="h1">Image show</div>
@@ -123,15 +192,105 @@
 			<img class="-image -rounded" src="/avatar.jpg">
 			<img class="-image -circular" src="/avatar.jpg">
 		</div>
+		<div class="h1">Icons</div>
+		<div class="row icon-list">
+			<i class="-icon -left"></i>
+			<i class="-icon -right"></i>
+			<i class="-icon -up"></i>
+			<i class="-icon -down"></i>
+			<i class="-icon -add"></i>
+			<i class="-icon -user"></i>
+			<i class="-icon -setting"></i>
+			<i class="-icon -cart"></i>
+			<i class="-icon -align -left"></i>
+			<i class="-icon -align -center"></i>
+			<i class="-icon -align -right"></i>
+			<i class="-icon -ambulance"></i>
+			<i class="-icon -anchor"></i>
+			<i class="-icon -android"></i>
+			<i class="-icon -angle -up"></i>
+			<i class="-icon -angle -down"></i>
+			<i class="-icon -angle -left"></i>
+			<i class="-icon -angle -right"></i>
+			<i class="-icon -play"></i>
+			<i class="-icon -pause"></i>
+			<i class="-icon -stop"></i>
+			<i class="-icon -chat"></i>
+			<i class="-icon -code"></i>
+			<i class="-icon -copy"></i>
+			<i class="-icon -paste"></i>
+		</div>
+		<div class="row icon-list">
+			<i class="-icon -edit"></i>
+			<i class="-icon -file"></i>
+			<i class="-icon -folder"></i>
+			<i class="-icon -github"></i>
+			<i class="-icon -money"></i>
+			<i class="-icon -pound"></i>
+			<i class="-icon -save"></i>
+			<i class="-icon -share"></i>
+			<i class="-icon -sort"></i>
+			<i class="-icon -star"></i>
+			<i class="-icon -table"></i>
+			<i class="-icon -tag"></i>
+			<i class="-icon -tags"></i>
+			<i class="-icon -undo"></i>
+			<i class="-icon -lock"></i>
+			<i class="-icon -unlock"></i>
+			<i class="-icon -upload"></i>
+			<i class="-icon -zoom -in"></i>
+			<i class="-icon -zoom -out"></i>
+			<i class="-icon -weibo"></i>
+			<i class="-icon -vk"></i>
+			<i class="-icon -yuan"></i>
+			<i class="-icon -youtube"></i>
+			<i class="-icon -umbrella"></i>
+			<i class="-icon -time"></i>
+		</div>
+		<div class="row">			
+			<a class="-btn"><i class="-icon -lock"></i>Login</a>
+			<a class="-btn"><i class="-icon -user"></i>User</a>
+			<a class="-btn"><i class="-icon -play"></i>Play</a>
+			<a class="-btn"><i class="-icon -pause"></i>Pause</a>
+			<a class="-btn"><i class="-icon -stop"></i>Stop</a>
+			<a class="-btn"><i class="-icon -zoom -in"></i>Zoom in</a>
+			<a class="-btn"><i class="-icon -zoom -out"></i>Zoom out</a>
+		</div>
+		<!-- <div class="h1">Pagination</div>
+		<div class="row">
+			<div class="-pagination">
+		      <a class="icon item">
+		        <i class="icon left arrow"></i>
+		      </a>
+		      <a class="active item">
+		        1
+		      </a>
+		      <div class="disabled item">
+		        ...
+		      </div>
+		      <a class="item">
+		        10
+		      </a>
+		      <a class="item">
+		        11
+		      </a>
+		      <a class="item">
+		        12
+		      </a>
+		      <a class="icon item">
+		        <i class="icon right arrow"></i>
+		      </a>
+		    </div>
+		</div> -->
 	</div>
 	
 	<a href="https://github.com/guodong/god-ui"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
 	
-	<footer>
+	<div class="footer">
 		<div class="-tac">
-			Powered by Tongjo
-			<small>Author: @<a href="https://github.com/guodong" target="_blank">Dong Guo</a></small>
+			<div>Powered by Tongjo</div>
+			<small>Author: @<a href="https://github.com/guodong" target="_blank">Guo Dong</a> & @Wang Yanling</small>
 		</div>
-	</footer>
+	</div>
 </body>
 </html>

@@ -27,8 +27,8 @@
 	border: none;
 	background-color: @blue;
 	color: #fff;
-	padding: 0.8em 1.5em;
-	font-size: 1rem;
+	padding: 0.75em 1.2em;
+	font-size: 18px;
 	text-transform: uppercase;
 	line-height: 1;
 	font-weight: bold;
@@ -108,5 +108,32 @@
 		&:active{
 			background: @dark_gray;
 		}		
-	}	
+	}
+	&.-small{
+		padding: 0.6em 1.2em;
+		font-size: 0.8rem;		
+	}
+	.-icon {
+	  margin-right: 0.3em !important;
+	
+	  line-height: .9em;
+		font-size: .96em;
+		vertical-align: -8%;
+	
+	  -webkit-transition:
+	    opacity 0.1s ease
+	  ;
+	  -moz-transition:
+	    opacity 0.1s ease
+	  ;
+	  -o-transition:
+	    opacity 0.1s ease
+	  ;
+	  -ms-transition:
+	    opacity 0.1s ease
+	  ;
+	  transition:
+	    opacity 0.1s ease
+	  ;
+	}
 }

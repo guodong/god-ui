@@ -1,8 +1,8 @@
 @CHARSET "UTF-8";
 
-/*  @import
+/*   @import
 	url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300")
-	;  */
+	; */  
 
 body {
 	font-family: "Lato", sans-serif;
@@ -38,7 +38,7 @@ h2{
 font-weight: 700;
 }
 .demo .-btn{
-	margin-right: 28px;
+	margin-right: 10px;
 }
 .demo .-btn:last-child{
 	margin-right: 0;
@@ -58,13 +58,16 @@ font-weight: 700;
   clear: both;
   visibility: hidden;
 }
-footer{
+.icon-list .-icon{
+	font-size: 24px !important;
+}
+.footer{
 	background-color: #edeff1;
 color: #666;
 font-size: 24px;
 padding: 30px;
 }
-footer small{
+.footer small{
 	font-size: 12px;
 	display: block;
 }
