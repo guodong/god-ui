@@ -60,6 +60,9 @@ font-weight: 700;
 }
 .icon-list .-icon{
 	font-size: 24px !important;
+	line-height: 50px;
+	width: 25px;
+	display: inline-block;
 }
 .footer{
 	background-color: #edeff1;
