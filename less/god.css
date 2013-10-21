@@ -2668,7 +2668,7 @@ i.-massive.-icon {
   }
 }
 .-swing {
-  display: blck;
+  display: block;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -o-animation-duration: 1s;
