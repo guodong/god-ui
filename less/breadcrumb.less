@@ -1,0 +1,63 @@
+.-breadcrumb {
+  margin: 1em 0em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.-breadcrumb:first-child {
+  margin-top: 0em;
+}
+.-breadcrumb:last-child {
+  margin-bottom: 0em;
+}
+
+/*******************************
+          Content
+*******************************/
+
+.-breadcrumb .-divider {
+  display: inline-block;
+  opacity: 0.5;
+  margin: 0em 0.15em 0em;
+
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.-breadcrumb a.-section {
+  cursor: pointer;
+	color: #009FDA;
+}
+.-breadcrumb .-section {
+  display: inline-block;
+  margin: 0em;
+  padding: 0em;
+}
+
+/* Loose Coupling */
+.-breadcrumb.-segment {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+/*******************************
+            States
+*******************************/
+
+.-breadcrumb .-active.-section {
+  font-weight: bold;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+.-small.-breadcrumb {
+  font-size: 0.75em;
+}
+.-large.-breadcrumb {
+  font-size: 1.2em;
+}
+.-huge.-breadcrumb {
+  font-size: 1.4em;
+}

@@ -1,11 +1,13 @@
 @CHARSET "UTF-8";
-
-/*   @import
-	url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300")
-	; */  
+@font-face {
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allerta Regular'), local('Allerta-Regular'), url(https://themes.googleusercontent.com/static/fonts/allerta/v4/URdUfE0ePw9inz9dceNoVA.woff) format('woff');
+}
 
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .wrapper {
