@@ -3,8 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>GOD UI</title>
-<link href="less/god.css" rel="stylesheet" type="text/css" />
+<link href="/less/god.css" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+function GODUI(){}
+</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -12,6 +16,11 @@
 			<a href="/" class="-swing">GOD UI</a> <small>Yet Another Web User Interface Kit</small>
 		</div>
 		<div class="h1">Buttons</div>
+		<div class="row">
+			<a class="-btn -large">Normal Button</a> <a class="-btn -green -large">Green
+				Button</a> <a class="-btn -red -large">Red Button</a> <a class="-btn -purple -large">purple
+				Button</a> <a class="-btn -gray -large">Gray Button</a>
+		</div>
 		<div class="demo">
 			<a class="-btn">Normal Button</a> <a class="-btn -green">Green
 				Button</a> <a class="-btn -red">Red Button</a> <a class="-btn -purple">purple
@@ -329,6 +338,42 @@
 			  <div class="-active -section">Apples</div>
 			</div>
 		</div>
+		<div class="h1">Progress bar</div>
+		<div class="-progress">
+		  <div class="-bar" style="width: 45%"></div>
+		</div>
+		<div class="h1">Modal</div>
+		<div class="row">
+			<div class="-modal">
+				<div class="-head">
+					Title<span class="-close">x</span>
+				</div>
+				<div class="-body">
+					Body
+				</div>
+				<div class="-foot">
+					<a class="-btn">Submit</a>
+					<a class="-btn -red">Cancel</a>
+				</div>
+			</div>
+		</div>
+		<div class="h1">Tab</div>
+		<div class="row">
+			<div class="-tabs">
+				<ul class="-head">
+					<li class="-tab -active">Home</li>
+					<li class="-tab">Other</li>
+				</ul>
+				<div class="-body">
+					<div class="-pane -active">
+					  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+					</div>
+					<div class="-pane">
+			          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+			        </div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<a href="https://github.com/guodong/god-ui"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
@@ -339,5 +384,12 @@
 			<small>Author: @<a href="https://github.com/guodong" target="_blank">Guo Dong</a> & @Wang Yanling</small>
 		</div>
 	</div>
+<script>
+$(function(){
+	$(".-tabs li").click(function(){
+		$(this).addClass("-active").siblings().removeClass("-active").parent().parent().find(".-pane").hide().eq($(this).index()).show();
+	});
+});
+</script>
 </body>
 </html>
