@@ -473,6 +473,18 @@ a:hover {
 .-cl {
   clear: both;
 }
+.-clf:before,
+.-clf:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.-clf:after {
+  clear: both;
+}
 /*****color*****/
 .-cb {
   color: #0000ff;
