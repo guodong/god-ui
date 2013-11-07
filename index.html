@@ -350,16 +350,17 @@ function GODUI(){}
 		</div>
 		<div class="h1">Modal</div>
 		<div class="row">
-			<div class="-modal">
+			<a class="-btn" gui-cmd="modal" gui-arg="modal">Launch Modal</a>
+			<div class="-modal -dpn" id="modal">
 				<div class="-head">
-					Title<span class="-close">x</span>
+					Title<span class="-close" gui-cmd="close">x</span>
 				</div>
 				<div class="-body">
 					Body
 				</div>
 				<div class="-foot">
 					<a class="-btn">Submit</a>
-					<a class="-btn -red">Cancel</a>
+					<a class="-btn -red" gui-cmd="close">Cancel</a>
 				</div>
 			</div>
 		</div>

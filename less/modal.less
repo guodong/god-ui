@@ -1,9 +1,14 @@
 .-modal{
-	position: relative;
+	position: fixed;
+	top: 200px;
+	left: 0;
+	right: 0;
+	z-index: 10000;
 	width: 400px;
 	margin: 0 auto;
 	border: 5px solid #ccc;
 	border-radius: 10px;
+	background: #fff;
 	.box-shadow(0 2px 10px rgba(0,0,0,.2));
 	
 	.-head{
@@ -40,4 +45,16 @@
 		border-radius: 0 0 5px 5px;
 		text-align: right;
 	}	
+}
+.-mask {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #000;
+
+
+		.opacity (.5);
 }
