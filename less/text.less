@@ -17,3 +17,19 @@
 		border-color: #933;
 	}
 }
+.-textarea{
+	width: 100%;	
+	padding: 4px 7px;	
+	font-size: 14px;	
+	border: 1px solid #ccc;
+	border-radius: 4px 4px 4px 4px;	
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0.15s, box-shadow 0.15s
+		ease-in-out 0.15s;
+	&:hover, &:focus{
+		border-color: @blue;
+	}
+	&.error{
+		border-color: #933;
+	}	
+}
