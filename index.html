@@ -38,7 +38,7 @@ function GODUI(){}
 		</div>
 		<div class="row">
 			<div class="-text-append">
-				<input type="text" class="-text" placeholder="Error input">
+				<input type="text" class="-text -wd4" placeholder="append text">
 				<a class="-btn">Search</a>
 			</div>
 		</div>
@@ -390,12 +390,6 @@ function GODUI(){}
 			<small>Author: @<a href="https://github.com/guodong" target="_blank">Guo Dong</a> & @Wang Yanling</small>
 		</div>
 	</div>
-<script>
-$(function(){
-	$(".-tabs li").click(function(){
-		$(this).addClass("-active").siblings().removeClass("-active").parent().parent().find(".-pane").hide().eq($(this).index()).show();
-	});
-});
-</script>
+<script src="god-ui.js"></script>
 </body>
 </html>
