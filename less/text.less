@@ -1,5 +1,5 @@
 .-text {
-	display: block;
+	display: table-cell;
 	width: 100%;
 	height: 35px;
 	padding: 4px 7px;
@@ -32,4 +32,18 @@
 	&.error{
 		border-color: #933;
 	}	
+}
+
+.-text-append{
+	.-text{
+		border-radius: 4px 0 0 4px;
+	}
+	margin-bottom: 10px;
+	font-size: 0;
+	white-space: nowrap;
+	vertical-align: middle;
+	.-btn{
+		height: 100%;
+		border-radius: 0px 4px 4px 0;
+	}
 }

@@ -1,3 +1,14 @@
+.mixin(width, @value, @unit:px){
+	width: unit(@value, @unit);
+}
+.loopingClass (@name, @property, @index, @factor, @unit) when (@index > 0) {
+	.@{name}@{index} {
+		.mixin(@property, @index * @factor, @unit);
+	}
+
+	.loopingClass(@name, @property, @index - 1, @factor, @unit);
+}
+
 /*****background-color*****/
 .bgc-radius (@radius){
 		background-color: @radius;
@@ -421,25 +432,5 @@
         vertical-align: middle;
 }
 /***** width *****/
-.wd-radius (@x){
-		width: @x !important;
-}
-.-wdfull {
-        .wd-radius(100%);
-}
-
-.-wd270 {
-        .wd-radius(270px);
-}
-
-.-wd320 {
-        .wd-radius(320px);
-}
-
-.-wd700 {
-        .wd-radius(700px);
-}
-
-.-wd980 {
-        .wd-radius(980px);
-}
+.loopingClass(-wd, width, 10, 100, px);
+.loopingClass(-wdp, width, 10, 10, ~'%');

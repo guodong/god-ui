@@ -167,8 +167,8 @@ a:hover {
   border: none;
   background-color: #3498db;
   color: #fff;
-  padding: 0.7em 1.2em;
-  font-size: 0.8rem;
+  padding: 0.75em 1.2em;
+  font-size: 14px;
   text-transform: uppercase;
   line-height: 1;
   font-weight: 500;
@@ -271,7 +271,7 @@ a:hover {
 	  ;
 }
 .-text {
-  display: block;
+  display: table-cell;
   width: 100%;
   height: 35px;
   padding: 4px 7px;
@@ -304,6 +304,19 @@ a:hover {
 }
 .-textarea.error {
   border-color: #933;
+}
+.-text-append {
+  margin-bottom: 10px;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.-text-append .-text {
+  border-radius: 4px 0 0 4px;
+}
+.-text-append .-btn {
+  height: 100%;
+  border-radius: 0px 4px 4px 0;
 }
 .h1,
 .h2,
@@ -750,20 +763,65 @@ a:hover {
   vertical-align: middle;
 }
 /***** width *****/
-.-wdfull {
-  width: 100% !important;
+.-wd10 {
+  width: 1000px;
 }
-.-wd270 {
-  width: 270px !important;
+.-wd9 {
+  width: 900px;
 }
-.-wd320 {
-  width: 320px !important;
+.-wd8 {
+  width: 800px;
 }
-.-wd700 {
-  width: 700px !important;
+.-wd7 {
+  width: 700px;
 }
-.-wd980 {
-  width: 980px !important;
+.-wd6 {
+  width: 600px;
+}
+.-wd5 {
+  width: 500px;
+}
+.-wd4 {
+  width: 400px;
+}
+.-wd3 {
+  width: 300px;
+}
+.-wd2 {
+  width: 200px;
+}
+.-wd1 {
+  width: 100px;
+}
+.-wdp10 {
+  width: 100%;
+}
+.-wdp9 {
+  width: 90%;
+}
+.-wdp8 {
+  width: 80%;
+}
+.-wdp7 {
+  width: 70%;
+}
+.-wdp6 {
+  width: 60%;
+}
+.-wdp5 {
+  width: 50%;
+}
+.-wdp4 {
+  width: 40%;
+}
+.-wdp3 {
+  width: 30%;
+}
+.-wdp2 {
+  width: 20%;
+}
+.-wdp1 {
+  width: 10%;
 }
 .-message {
   position: relative;
