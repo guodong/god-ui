@@ -1,9 +1,24 @@
-.mixin(width, @value, @unit:px){
+.atomstyle(width, @value, @unit:px){
 	width: unit(@value, @unit);
+}
+.atomstyle(padding, @value, @unit:px){
+	padding: unit(@value, @unit);
+}
+.atomstyle(padding-left, @value, @unit:px){
+	padding-left: unit(@value, @unit);
+}
+.atomstyle(padding-right, @value, @unit:px){
+	padding-right: unit(@value, @unit);
+}
+.atomstyle(padding-top, @value, @unit:px){
+	padding-top: unit(@value, @unit);
+}
+.atomstyle(padding-bottom, @value, @unit:px){
+	padding-bottom: unit(@value, @unit);
 }
 .loopingClass (@name, @property, @index, @factor, @unit) when (@index > 0) {
 	.@{name}@{index} {
-		.mixin(@property, @index * @factor, @unit);
+		.atomstyle(@property, @index * @factor, @unit);
 	}
 
 	.loopingClass(@name, @property, @index - 1, @factor, @unit);
@@ -251,6 +266,7 @@
         margin-top: 0px 9;
 }
 
+
 /***** line-height *****/
 .lh-radius (@radius){
 		line-height: @radius;
@@ -343,50 +359,12 @@
         overflow: hidden;
 }
 /***** padding *****/
-.pd-radius (@a){
-		padding: @a;
-}
-.pd-radius (@a, @b){
-		padding-left: @a;
-		padding-right: @b;
-}
-.pdr-radius (@radius){
-		padding-right: @radius;
-}
-.-pd3 {
-        .pd-radius(3px);
-}
+.loopingClass(-pd, padding, 10, 5, px);
+.loopingClass(-pdl, padding-left, 10, 5, px);
+.loopingClass(-pdr, padding-right, 10, 5, px);
+.loopingClass(-pdt, padding-top, 10, 5, px);
+.loopingClass(-pdb, padding-bottom, 10, 5, px);
 
-.-pd5 {
-        .pd-radius(5px);
-}
-
-.-pd10 {
-        .pd-radius(10px);
-}
-
-.-pdl10 {
-        padding-left: 10px;
-}
-.-pdlr10{
-        .pd-radius(10px, 10px);
-}
-
-.-pdr5 {
-        .pdr-radius(5px);
-}
-
-.-pdr10 {
-        .pdr-radius(10px);
-}
-
-.-pdr20 {
-        .pdr-radius(20px);
-}
-
-.-pdt10 {
-        padding-top: 10px;
-}
 /***** position *****/
 .po (@radius){
 		position: @radius;

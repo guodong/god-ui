@@ -700,33 +700,155 @@ a:hover {
   overflow: hidden;
 }
 /***** padding *****/
-.-pd3 {
-  padding: 3px;
+.-pd10 {
+  padding: 50px;
+}
+.-pd9 {
+  padding: 45px;
+}
+.-pd8 {
+  padding: 40px;
+}
+.-pd7 {
+  padding: 35px;
+}
+.-pd6 {
+  padding: 30px;
 }
 .-pd5 {
-  padding: 5px;
+  padding: 25px;
 }
-.-pd10 {
+.-pd4 {
+  padding: 20px;
+}
+.-pd3 {
+  padding: 15px;
+}
+.-pd2 {
   padding: 10px;
 }
+.-pd1 {
+  padding: 5px;
+}
 .-pdl10 {
+  padding-left: 50px;
+}
+.-pdl9 {
+  padding-left: 45px;
+}
+.-pdl8 {
+  padding-left: 40px;
+}
+.-pdl7 {
+  padding-left: 35px;
+}
+.-pdl6 {
+  padding-left: 30px;
+}
+.-pdl5 {
+  padding-left: 25px;
+}
+.-pdl4 {
+  padding-left: 20px;
+}
+.-pdl3 {
+  padding-left: 15px;
+}
+.-pdl2 {
   padding-left: 10px;
 }
-.-pdlr10 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.-pdr5 {
-  padding-right: 5px;
+.-pdl1 {
+  padding-left: 5px;
 }
 .-pdr10 {
-  padding-right: 10px;
+  padding-right: 50px;
 }
-.-pdr20 {
+.-pdr9 {
+  padding-right: 45px;
+}
+.-pdr8 {
+  padding-right: 40px;
+}
+.-pdr7 {
+  padding-right: 35px;
+}
+.-pdr6 {
+  padding-right: 30px;
+}
+.-pdr5 {
+  padding-right: 25px;
+}
+.-pdr4 {
   padding-right: 20px;
 }
+.-pdr3 {
+  padding-right: 15px;
+}
+.-pdr2 {
+  padding-right: 10px;
+}
+.-pdr1 {
+  padding-right: 5px;
+}
 .-pdt10 {
+  padding-top: 50px;
+}
+.-pdt9 {
+  padding-top: 45px;
+}
+.-pdt8 {
+  padding-top: 40px;
+}
+.-pdt7 {
+  padding-top: 35px;
+}
+.-pdt6 {
+  padding-top: 30px;
+}
+.-pdt5 {
+  padding-top: 25px;
+}
+.-pdt4 {
+  padding-top: 20px;
+}
+.-pdt3 {
+  padding-top: 15px;
+}
+.-pdt2 {
   padding-top: 10px;
+}
+.-pdt1 {
+  padding-top: 5px;
+}
+.-pdb10 {
+  padding-bottom: 50px;
+}
+.-pdb9 {
+  padding-bottom: 45px;
+}
+.-pdb8 {
+  padding-bottom: 40px;
+}
+.-pdb7 {
+  padding-bottom: 35px;
+}
+.-pdb6 {
+  padding-bottom: 30px;
+}
+.-pdb5 {
+  padding-bottom: 25px;
+}
+.-pdb4 {
+  padding-bottom: 20px;
+}
+.-pdb3 {
+  padding-bottom: 15px;
+}
+.-pdb2 {
+  padding-bottom: 10px;
+}
+.-pdb1 {
+  padding-bottom: 5px;
 }
 /***** position *****/
 .-pa {
