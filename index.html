@@ -7,392 +7,482 @@
 <link href="/style.css" rel="stylesheet" type="text/css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="/god-ui.js"></script>
+<style type="text/css">
+.section{
+	margin-bottom: 50px;
+}
+.section .title{
+	
+}
+</style>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="logo">
-			<a href="/" class="-swing">GOD UI</a> <small>Yet Another Web User Interface Kit</small>
+			<a href="/" class="-swing">GOD UI</a> <small>Web User Interface Kit For Tongjo</small>
 		</div>
-		<div class="h1">Buttons</div>
-		<div class="row">
-			<a class="-btn -large">Normal Button</a> <a class="-btn -green -large">Green
-				Button</a> <a class="-btn -red -large">Red Button</a> <a class="-btn -purple -large">purple
-				Button</a> <a class="-btn -gray -large">Gray Button</a>
-		</div>
-		<div class="demo">
-			<a class="-btn">Normal Button</a> <a class="-btn -green">Green
-				Button</a> <a class="-btn -red">Red Button</a> <a class="-btn -purple">purple
-				Button</a> <a class="-btn -gray">gray Button</a>
-		</div>
-		<div class="row">
-			<a class="-btn -small">Normal Button</a> <a class="-btn -green -small">Green
-				Button</a> <a class="-btn -red -small">Red Button</a> <a class="-btn -purple -small">purple
-				Button</a> <a class="-btn -gray -small">Gray Button</a>
-		</div>
-		<div class="h1">Input</div>
-		<input type="text" class="-text" placeholder="Normal input">
-		<div class="row">
-			<input type="text" class="-text error" placeholder="Error input">
-		</div>
-		<div class="row">
-			<div class="-text-append">
-				<input type="text" class="-text -wd4" placeholder="append text">
-				<a class="-btn">Search</a>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Buttons<small>-btn</small></h1>
+			</div>
+			<div class="row">
+				<a class="-btn -large">Normal Button</a> <a class="-btn -green -large">Green
+					Button</a> <a class="-btn -red -large">Red Button</a> <a class="-btn -purple -large">purple
+					Button</a> <a class="-btn -gray -large">Gray Button</a>
+			</div>
+			<div class="demo">
+				<a class="-btn">Normal Button</a> <a class="-btn -green">Green
+					Button</a> <a class="-btn -red">Red Button</a> <a class="-btn -purple">purple
+					Button</a> <a class="-btn -gray">gray Button</a>
+			</div>
+			<div class="row">
+				<a class="-btn -small">Normal Button</a> <a class="-btn -green -small">Green
+					Button</a> <a class="-btn -red -small">Red Button</a> <a class="-btn -purple -small">purple
+					Button</a> <a class="-btn -gray -small">Gray Button</a>
 			</div>
 		</div>
-		<div class="h1">Button group</div>
-		<div class="row">
-			<div class="-btn-group">
-				<a class="-btn">Button1</a>
-				<a class="-btn">Button2</a>
-				<a class="-btn">Button3</a>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Input<small>-text</small></h1>
 			</div>
-		</div>
-		<div class="row">
-			<div class="-btn-group">
-				<a class="-btn">Button1</a>
-				<a class="-btn -green">Button2</a>
-				<a class="-btn -red">Button3</a>
+			<div class="row">
+				<input type="text" class="-text" placeholder="Normal input">
 			</div>
-		</div>
-		<div class="h1">Check box</div>
-		<div class="row">
-			<label class="-checkbox">
-	          <input type="checkbox"> Hello
-	        </label>
-			<label class="-checkbox">
-	          <input type="checkbox"> World!
-	        </label>
-		</div>
-		<div class="h1">Select</div>
-		<div class="row">
-			<select class="-select">
-				<option>God</option>
-				<option>Bless</option>
-				<option>You</option>
-			</select>
-		</div>
-		<div class="h1">Radio</div>
-		<div class="row">
-			<div class="-radio">
-				<label>
-					<input type="radio" name="radio" checked="checked">
-					God bless you!
-				</label>
+			<div class="row">
+				<input type="text" class="-text error" placeholder="Error input">
 			</div>
-			<div class="-radio">
-				<label>
-					<input type="radio" name="radio">
-					God not bless you!
-				</label>
-			</div>
-		</div>
-		<div class="h1">Form</div>
-		<div class="row">
-			<div class="-form -panel">
-				<div class="-field">
-					<label>Username</label>
-					<input type="text" class="-text">
-				</div>
-				<div class="-field">
-					<label>Password</label>
-					<input type="text" class="-text">
-				</div>
-				<div class="-field">
-					<a class="-btn -small">Login</a>
+			<div class="row">
+				<div class="-text-append">
+					<input type="text" class="-text -wd4" placeholder="append text">
+					<a class="-btn">Search</a>
 				</div>
 			</div>
 		</div>
-		<div class="h1">Table</div>
-		<table class="-table">
-			<thead>
-				<tr>
-					<th>head</th>
-					<th>head</th>
-					<th>head</th>
-					<th>head</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>body</td>
-					<td>body</td>
-					<td>body</td>
-					<td>body</td>
-				</tr>
-				<tr>
-					<td>body</td>
-					<td>body</td>
-					<td>body</td>
-					<td>body</td>
-				</tr>
-			</tbody>
-		</table>
-		<div class="h1">Label</div>
-		<div class="row">
-			<span class="-label">Default</span>
-			<span class="-label -blue">Blue</span>
-			<span class="-label -green">Green</span>
-			<span class="-label -red">Red</span>
-		</div>
-		<div class="row">
-			<span class="-label -big">Default</span>
-			<span class="-label -blue -big">Blue</span>
-			<span class="-label -green -big">Green</span>
-			<span class="-label -red -big">Red</span>
-		</div>
-		<div class="h1">Message</div>
-		<div class="row">
-			<div class="-message">God bless you!</div>
-			<div class="-message -green">God bless you!</div>
-			<div class="-message -red">God bless you!</div>
-		</div>
-		<div class="row">
-			<div class="-message -large">God bless you!</div>
-			<div class="-message -green -large">God bless you!</div>
-			<div class="-message -red -large">God bless you!</div>
-		</div>
-		<div class="h1">Tight grid</div>
-		<div class="row">
-			<div class="-grid">				
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col6"><div class="-panel">6 column</div></div>
-				<div class="-col6"><div class="-panel">6 column</div></div>
-
-				<div class="-col5"><div class="-panel">5 column</div></div>
-				<div class="-col7"><div class="-panel">7 column</div></div>
-
-				<div class="-col4"><div class="-panel">4 column</div></div>
-				<div class="-col4"><div class="-panel">4 column</div></div>
-				<div class="-col4"><div class="-panel">4 column</div></div>
-
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Page header</h1>
+			</div>
+			<div class="-page-header">
+				<h1>页面标题<span class="-small">page title</span></h1>
+			</div>
+			<div class="-page-header">
+				<h2>页面标题<span class="-small">page title</span></h2>
+			</div>
+			<div class="-page-header">
+				<h3>页面标题<span class="-small">page title</span></h3>
 			</div>
 		</div>
-		<div class="h1">Loose grid</div>
-		<div class="row">
-			<div class="-grid -loose">
-				<div class="-col6"><div class="-panel">6 column</div></div>
-				<div class="-col6"><div class="-panel">6 column</div></div>
-				
-				<div class="-col5"><div class="-panel">5 column</div></div>
-				<div class="-col7"><div class="-panel">7 column</div></div>
-				
-				<div class="-col4"><div class="-panel">4 column</div></div>
-				<div class="-col4"><div class="-panel">4 column</div></div>
-				<div class="-col4"><div class="-panel">4 column</div></div>
-				
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				<div class="-col3"><div class="-panel">3 column</div></div>
-				
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
-				<div class="-col1"><div class="-panel">1 column</div></div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Check box</h1>
+			</div>
+			<div class="row">
+				<label class="-checkbox">
+		          <input type="checkbox"> Hello
+		        </label>
+				<label class="-checkbox">
+		          <input type="checkbox"> World!
+		        </label>
 			</div>
 		</div>
-		<div class="h1">Image show</div>
-		<div class="row">
-			<img class="-image -rounded" src="/avatar.jpg">
-			<img class="-image -circular" src="/avatar.jpg">
-			<img class="-image -circular -disabled" src="/avatar.jpg">
-			<img class="-image -avatar" src="/avatar.jpg">
+		<div class="section">
+			<div class="-page-header">
+				<h1>Select</h1>
+			</div>
+			<div class="row">
+				<select class="-select">
+					<option>God</option>
+					<option>Bless</option>
+					<option>You</option>
+				</select>
+			</div>
 		</div>
-		<div class="h1">Icons</div>
-		<div class="row icon-list">
-			<i class="-icon -left"></i>
-			<i class="-icon -right"></i>
-			<i class="-icon -up"></i>
-			<i class="-icon -down"></i>
-			<i class="-icon -add"></i>
-			<i class="-icon -user"></i>
-			<i class="-icon -setting"></i>
-			<i class="-icon -cart"></i>
-			<i class="-icon -align -left"></i>
-			<i class="-icon -align -center"></i>
-			<i class="-icon -align -right"></i>
-			<i class="-icon -ambulance"></i>
-			<i class="-icon -anchor"></i>
-			<i class="-icon -android"></i>
-			<i class="-icon -angle -up"></i>
-			<i class="-icon -angle -down"></i>
-			<i class="-icon -angle -left"></i>
-			<i class="-icon -angle -right"></i>
-			<i class="-icon -play"></i>
-			<i class="-icon -pause"></i>
-			<i class="-icon -stop"></i>
-			<i class="-icon -chat"></i>
-			<i class="-icon -code"></i>
-			<i class="-icon -copy"></i>
-			<i class="-icon -paste"></i>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Radio</h1>
+			</div>
+			<div class="row">
+				<div class="-radio">
+					<label>
+						<input type="radio" name="radio" checked="checked">
+						God bless you!
+					</label>
+				</div>
+				<div class="-radio">
+					<label>
+						<input type="radio" name="radio">
+						God not bless you!
+					</label>
+				</div>
+			</div>
 		</div>
-		<div class="row icon-list">
-			<i class="-icon -edit"></i>
-			<i class="-icon -file"></i>
-			<i class="-icon -folder"></i>
-			<i class="-icon -github"></i>
-			<i class="-icon -money"></i>
-			<i class="-icon -pound"></i>
-			<i class="-icon -save"></i>
-			<i class="-icon -share"></i>
-			<i class="-icon -sort"></i>
-			<i class="-icon -star"></i>
-			<i class="-icon -table"></i>
-			<i class="-icon -tag"></i>
-			<i class="-icon -tags"></i>
-			<i class="-icon -undo"></i>
-			<i class="-icon -lock"></i>
-			<i class="-icon -unlock"></i>
-			<i class="-icon -upload"></i>
-			<i class="-icon -zoom -in"></i>
-			<i class="-icon -zoom -out"></i>
-			<i class="-icon -weibo"></i>
-			<i class="-icon -vk"></i>
-			<i class="-icon -yuan"></i>
-			<i class="-icon -youtube"></i>
-			<i class="-icon -umbrella"></i>
-			<i class="-icon -time"></i>
-		</div>
-		<div class="row">			
-			<a class="-btn"><i class="-icon -lock"></i>Login</a>
-			<a class="-btn"><i class="-icon -user"></i>User</a>
-			<a class="-btn"><i class="-icon -play"></i>Play</a>
-			<a class="-btn"><i class="-icon -pause"></i>Pause</a>
-			<a class="-btn"><i class="-icon -stop"></i>Stop</a>
-			<a class="-btn"><i class="-icon -zoom -in"></i>Zoom in</a>
-			<a class="-btn"><i class="-icon -zoom -out"></i>Zoom out</a>
-		</div>
-		<div class="h1">Menu</div>
-		<div class="row -grid">
-			<div class="-menu -col3">
-				<div class="-item -active"><a href="#">建立功能系统</a></div>
-				<div class="-item">
-					<a href="#">确定主要功能</a>
-					<div class="-menu -sub">
-						<div class="-item"><a href="#">任务抽象</a></div>
-						<div class="-item"><a href="#">功能表达</a></div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Form</h1>
+			</div>
+			<div class="row">
+				<div class="-form -panel">
+					<div class="-field">
+						<label>Username</label>
+						<input type="text" class="-text">
+					</div>
+					<div class="-field">
+						<label>Password</label>
+						<input type="text" class="-text">
+					</div>
+					<div class="-field">
+						<a class="-btn -small">Login</a>
 					</div>
 				</div>
-				<div class="-item">
-					<a href="#">总功能细化至子功能</a>
-					<div class="-menu -sub">
-						<div class="-item"><a href="#">功能分类</a></div>
-						<div class="-item"><a href="#">功能分解</a></div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Table</h1>
+			</div>
+			<div class="row">
+				<table class="-table">
+					<thead>
+						<tr>
+							<th>head</th>
+							<th>head</th>
+							<th>head</th>
+							<th>head</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>body</td>
+							<td>body</td>
+							<td>body</td>
+							<td>body</td>
+						</tr>
+						<tr>
+							<td>body</td>
+							<td>body</td>
+							<td>body</td>
+							<td>body</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Label</h1>
+			</div>
+			<div class="row">
+				<span class="-label">Default</span>
+				<span class="-label -blue">Blue</span>
+				<span class="-label -green">Green</span>
+				<span class="-label -red">Red</span>
+			</div>
+			<div class="row">
+				<span class="-label -big">Default</span>
+				<span class="-label -blue -big">Blue</span>
+				<span class="-label -green -big">Green</span>
+				<span class="-label -red -big">Red</span>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Message</h1>
+			</div>
+			<div class="row">
+				<div class="-message">God bless you!</div>
+				<div class="-message -green">God bless you!</div>
+				<div class="-message -red">God bless you!</div>
+			</div>
+			<div class="row">
+				<div class="-message -large">God bless you!</div>
+				<div class="-message -green -large">God bless you!</div>
+				<div class="-message -red -large">God bless you!</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Tight grid</h1>
+			</div>
+			<div class="row">
+				<div class="-grid">				
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col6"><div class="-panel">6 column</div></div>
+					<div class="-col6"><div class="-panel">6 column</div></div>
+	
+					<div class="-col5"><div class="-panel">5 column</div></div>
+					<div class="-col7"><div class="-panel">7 column</div></div>
+	
+					<div class="-col4"><div class="-panel">4 column</div></div>
+					<div class="-col4"><div class="-panel">4 column</div></div>
+					<div class="-col4"><div class="-panel">4 column</div></div>
+	
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Loose grid</h1>
+			</div>
+			<div class="row">
+				<div class="-grid -loose">
+					<div class="-col6"><div class="-panel">6 column</div></div>
+					<div class="-col6"><div class="-panel">6 column</div></div>
+					
+					<div class="-col5"><div class="-panel">5 column</div></div>
+					<div class="-col7"><div class="-panel">7 column</div></div>
+					
+					<div class="-col4"><div class="-panel">4 column</div></div>
+					<div class="-col4"><div class="-panel">4 column</div></div>
+					<div class="-col4"><div class="-panel">4 column</div></div>
+					
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					<div class="-col3"><div class="-panel">3 column</div></div>
+					
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+					<div class="-col1"><div class="-panel">1 column</div></div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Image show</h1>
+			</div>
+			<div class="row">
+				<div class="-grid -loose">
+					<img class="-image -rounded" src="/avatar.jpg">
+					<img class="-image -circular" src="/avatar.jpg">
+					<img class="-image -circular -disabled" src="/avatar.jpg">
+					<img class="-image -avatar" src="/avatar.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Icons</h1>
+			</div>
+			<div class="row icon-list">
+				<i class="-icon -left"></i>
+				<i class="-icon -right"></i>
+				<i class="-icon -up"></i>
+				<i class="-icon -down"></i>
+				<i class="-icon -add"></i>
+				<i class="-icon -user"></i>
+				<i class="-icon -setting"></i>
+				<i class="-icon -cart"></i>
+				<i class="-icon -align -left"></i>
+				<i class="-icon -align -center"></i>
+				<i class="-icon -align -right"></i>
+				<i class="-icon -ambulance"></i>
+				<i class="-icon -anchor"></i>
+				<i class="-icon -android"></i>
+				<i class="-icon -angle -up"></i>
+				<i class="-icon -angle -down"></i>
+				<i class="-icon -angle -left"></i>
+				<i class="-icon -angle -right"></i>
+				<i class="-icon -play"></i>
+				<i class="-icon -pause"></i>
+				<i class="-icon -stop"></i>
+				<i class="-icon -chat"></i>
+				<i class="-icon -code"></i>
+				<i class="-icon -copy"></i>
+				<i class="-icon -paste"></i>
+			</div>
+			<div class="row icon-list">
+				<i class="-icon -edit"></i>
+				<i class="-icon -file"></i>
+				<i class="-icon -folder"></i>
+				<i class="-icon -github"></i>
+				<i class="-icon -money"></i>
+				<i class="-icon -pound"></i>
+				<i class="-icon -save"></i>
+				<i class="-icon -share"></i>
+				<i class="-icon -sort"></i>
+				<i class="-icon -star"></i>
+				<i class="-icon -table"></i>
+				<i class="-icon -tag"></i>
+				<i class="-icon -tags"></i>
+				<i class="-icon -undo"></i>
+				<i class="-icon -lock"></i>
+				<i class="-icon -unlock"></i>
+				<i class="-icon -upload"></i>
+				<i class="-icon -zoom -in"></i>
+				<i class="-icon -zoom -out"></i>
+				<i class="-icon -weibo"></i>
+				<i class="-icon -vk"></i>
+				<i class="-icon -yuan"></i>
+				<i class="-icon -youtube"></i>
+				<i class="-icon -umbrella"></i>
+				<i class="-icon -time"></i>
+			</div>
+			<div class="row">			
+				<a class="-btn"><i class="-icon -lock"></i>Login</a>
+				<a class="-btn"><i class="-icon -user"></i>User</a>
+				<a class="-btn"><i class="-icon -play"></i>Play</a>
+				<a class="-btn"><i class="-icon -pause"></i>Pause</a>
+				<a class="-btn"><i class="-icon -stop"></i>Stop</a>
+				<a class="-btn"><i class="-icon -zoom -in"></i>Zoom in</a>
+				<a class="-btn"><i class="-icon -zoom -out"></i>Zoom out</a>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Menu</h1>
+			</div>
+			<div class="row -grid">
+				<div class="-menu -col3">
+					<div class="-item -active"><a href="#">建立功能系统</a></div>
+					<div class="-item">
+						<a href="#">确定主要功能</a>
+						<div class="-menu -sub">
+							<div class="-item"><a href="#">任务抽象</a></div>
+							<div class="-item"><a href="#">功能表达</a></div>
+						</div>
 					</div>
-				</div>
-				<div class="-item"><a href="#">建立子功能间的关联</a></div>
-				<div class="-item"><a href="#">搜寻解决方案</a></div>
-				<div class="-item"><a href="#">求解总体方案</a></div>
-			</div>
-		</div>
-		<div class="h1">Pagination</div>
-		<div class="">
-			<ul class="-pagination">
-			  <li><a href="#">&laquo;</a></li>
-			  <li class="-active"><a href="#">1</a></li>
-			  <li><a href="#">2</a></li>
-			  <li><a href="#">3</a></li>
-			  <li><a href="#">4</a></li>
-			  <li><a href="#">5</a></li>
-			  <li><a href="#">&raquo;</a></li>
-			</ul>
-			
-		</div>
-		<div class="h1">Breadcrumbs</div>
-		<div class="row">
-			<div class="-breadcrumb -small">
-			  <a class="-section">Food</a>
-			  <div class="-divider"> / </div>
-			  <a class="-section">Fruit</a>
-			  <div class="-divider"> / </div>
-			  <div class="-active -section">Apples</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-breadcrumb">
-			  <a class="-section">Food</a>
-			  <div class="-divider"> / </div>
-			  <a class="-section">Fruit</a>
-			  <div class="-divider"> / </div>
-			  <div class="-active -section">Apples</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-breadcrumb -large">
-			  <a class="-section">Food</a>
-			  <div class="-divider"> / </div>
-			  <a class="-section">Fruit</a>
-			  <div class="-divider"> / </div>
-			  <div class="-active -section">Apples</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="-breadcrumb -huge">
-			  <a class="-section">Food</a>
-			  <div class="-divider"> / </div>
-			  <a class="-section">Fruit</a>
-			  <div class="-divider"> / </div>
-			  <div class="-active -section">Apples</div>
-			</div>
-		</div>
-		<div class="h1">Progress bar</div>
-		<div class="-progress">
-		  <div class="-bar" style="width: 45%"></div>
-		</div>
-		<div class="h1">Modal</div>
-		<div class="row">
-			<a class="-btn" gui-cmd="modal" gui-arg="modal">Launch Modal</a>
-			<div class="-modal -dpn" id="modal">
-				<div class="-head">
-					Title<span class="-close" gui-cmd="close">x</span>
-				</div>
-				<div class="-body">
-					Body
-				</div>
-				<div class="-foot">
-					<a class="-btn">Submit</a>
-					<a class="-btn -red" gui-cmd="close">Cancel</a>
+					<div class="-item">
+						<a href="#">总功能细化至子功能</a>
+						<div class="-menu -sub">
+							<div class="-item"><a href="#">功能分类</a></div>
+							<div class="-item"><a href="#">功能分解</a></div>
+						</div>
+					</div>
+					<div class="-item"><a href="#">建立子功能间的关联</a></div>
+					<div class="-item"><a href="#">搜寻解决方案</a></div>
+					<div class="-item"><a href="#">求解总体方案</a></div>
 				</div>
 			</div>
 		</div>
-		<div class="h1">Tab</div>
-		<div class="row">
-			<div class="-tabs">
-				<ul class="-head">
-					<li class="-tab -active">Home</li>
-					<li class="-tab">Other</li>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Pagination</h1>
+			</div>
+			<div class="row">
+				<ul class="-pagination">
+					<li><a href="#">&laquo;</a></li>
+					<li class="-active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">&raquo;</a></li>
 				</ul>
-				<div class="-body">
-					<div class="-pane -active">
-					  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Breadcrumbs</h1>
+			</div>
+			<div class="row">
+				<div class="-breadcrumb -small">
+					<a class="-section">Food</a>
+					<div class="-divider"> / </div>
+					<a class="-section">Fruit</a>
+					<div class="-divider"> / </div>
+					<div class="-active -section">Apples</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="-breadcrumb">
+					<a class="-section">Food</a>
+					<div class="-divider"> / </div>
+					<a class="-section">Fruit</a>
+					<div class="-divider"> / </div>
+					<div class="-active -section">Apples</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="-breadcrumb -large">
+					<a class="-section">Food</a>
+					<div class="-divider"> / </div>
+					<a class="-section">Fruit</a>
+					<div class="-divider"> / </div>
+					<div class="-active -section">Apples</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="-breadcrumb -huge">
+					<a class="-section">Food</a>
+					<div class="-divider"> / </div>
+					<a class="-section">Fruit</a>
+					<div class="-divider"> / </div>
+					<div class="-active -section">Apples</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Progress bar</h1>
+			</div>
+			<div class="row">
+				<div class="-progress">
+					<div class="-bar" style="width: 45%"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Modal</h1>
+			</div>
+			<div class="row">
+				<a class="-btn" gui-cmd="modal" gui-arg="modal">Launch Modal</a>
+				<div class="-modal -dpn" id="modal">
+					<div class="-head">
+						Title<span class="-close" gui-cmd="close">x</span>
 					</div>
-					<div class="-pane">
-			          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-			        </div>
+					<div class="-body">
+						Body
+					</div>
+					<div class="-foot">
+						<a class="-btn">Submit</a>
+						<a class="-btn -red" gui-cmd="close">Cancel</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="-page-header">
+				<h1>Tab</h1>
+			</div>
+			<div class="row">
+				<div class="-tabs">
+					<ul class="-head">
+						<li class="-tab -active">Home</li>
+						<li class="-tab">Other</li>
+					</ul>
+					<div class="-body">
+						<div class="-pane -active">
+						  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+						</div>
+						<div class="-pane">
+				          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+				        </div>
+					</div>
 				</div>
 			</div>
 		</div>

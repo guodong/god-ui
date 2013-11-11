@@ -348,23 +348,84 @@ a:hover {
   height: 100%;
   border-radius: 0px 4px 4px 0;
 }
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+.-h1,
+.-h2,
+.-h3,
+.-h4,
+.-h5,
+.-h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
   line-height: 1.2;
 }
-.h1 {
+.-h1 .-small,
+.-h2 .-small,
+.-h3 .-small,
+.-h4 .-small,
+.-h5 .-small,
+.-h6 .-small,
+h1 .-small,
+h2 .-small,
+h3 .-small,
+h4 .-small,
+h5 .-small,
+h6 .-small {
+  font-size: 65%;
+  color: #999;
+  margin-left: 0.5em;
+}
+.-h1 small,
+.-h2 small,
+.-h3 small,
+.-h4 small,
+.-h5 small,
+.-h6 small,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-size: 65%;
+  color: #999;
+  margin-left: 0.5em;
+}
+.-h1,
+h1 {
   font-size: 36px;
   font-weight: 500;
-  margin: 0.67em 0;
 }
-.h2 {
+.-h2,
+h2 {
   font-size: 30px;
   font-wight: 500;
+}
+.-h3,
+h3 {
+  font-size: 24px;
+}
+.-h4,
+h4 {
+  font-size: 18px;
+}
+.-h5,
+h5 {
+  font-size: 12px;
+}
+.-h6,
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.-page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
 }
 .-table {
   font-size: 14px;
@@ -3156,7 +3217,7 @@ i.-massive.-icon {
 }
 .-modal {
   position: fixed;
-  top: 200px;
+  top: 150px;
   left: 0;
   right: 0;
   z-index: 10000;

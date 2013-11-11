@@ -32,15 +32,6 @@ body {
   letter-spacing: -1px;
   padding-top: 5px;
 }
-h1{
-	font-size: 32px;
-font-weight: 900;
-	line-height: 40px;
-}
-h2{
-	font-size: 24px;
-font-weight: 700;
-}
 .demo .-btn{
 	margin-right: 10px;
 }
