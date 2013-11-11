@@ -288,7 +288,7 @@ a:hover {
 }
 .-btn-group .-btn {
   float: left;
-  border-left: 1px solid #bbb;
+  border-left: 1px solid #ccc;
   margin-left: -1px;
   border-radius: 0;
 }
